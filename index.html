@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form User</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="form-conteiner">
+        <div id=color></div>
+        <h1>Briefing Pessoal</h1>
+        <form id="form1" method="post" enctype="multipart/form-data">
+            <input type="text" name="first" id="first" placeholder="Primeiro Nome" required>
+            <input type="text" name="last" id="last" placeholder="Úlitmo Nome" required>
+            <input type="email" name="email" id="email" placeholder="Seu Email" required>
+            <input type="text" name="comida" id="comida" placeholder="Sua comida favorita" required>
+            <input type="text" name="desenho" id="desenho" placeholder="Seu desenho favorito" required>
+            <input type="text" name="hobby" id="hobby" placeholder="Seus hobbies" required>
+            <textarea name="sobre" id="" cols="31" rows="10" placeholder="Escreva um pouco sobre você." required maxlength="400"></textarea>
+            <input type="file" name="image">
+            <div id="buttons">
+            <input type="submit" value="SUBMIT" id="submit">
+            <a href="users.html">
+                <input type="button" id="link" value="USUÁRIOS">
+
+            </a>
+        </div>
+           </form>
+
+        
+    </div>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

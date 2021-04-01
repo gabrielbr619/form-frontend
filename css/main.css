@@ -1,0 +1,172 @@
+body {
+  background-color: #3c4e70;
+  margin: 0;
+  padding: 0;
+}
+
+body #a {
+  margin: 2em;
+  text-decoration: none;
+  width: 18em;
+  height: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #link {
+  font-size: 2em;
+  background-color: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 2em;
+  border-radius: 8px;
+  color: black;
+  border: solid black 2px;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+body #link:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #ff9100;
+  color: white;
+  border: none;
+}
+
+body .layout {
+  margin-top: 5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  row-gap: 4em;
+  z-index: -1;
+  position: absolute;
+}
+
+body .card {
+  background-color: white;
+  width: 400px;
+  min-height: 600px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  z-index: -1;
+  border-radius: 20px 20px;
+  margin-left: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  word-wrap: break-word;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .color {
+  background-color: #ff7300;
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  border-radius: 20px 20px 0 0;
+}
+
+body .retrato {
+  border: 10px solid white;
+  background-color: #bbabab;
+  height: 150px;
+  width: 150px;
+  min-height: 150px;
+  border-radius: 20em;
+  margin-top: 5em;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .retrato .img {
+  width: 150px;
+  overflow-y: hidden;
+}
+
+body .nome {
+  margin-top: 1em;
+}
+
+body h2 {
+  margin-top: 0;
+  font: italic 400 1em helvetica;
+}
+
+body .sobre {
+  text-align: center;
+  font-family: helvetica;
+  width: 80%;
+}
+
+body .remove {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: -1em;
+  font-size: 3em;
+  top: 0.2em;
+  left: 3em;
+  color: white;
+  font-weight: bolder;
+  background-color: black;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 250px;
+  cursor: pointer;
+}
+
+body .remove:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #726f6f;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.invisible {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  opacity: 0;
+}
+/*# sourceMappingURL=main.css.map */

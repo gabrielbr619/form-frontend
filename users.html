@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="index.html" id="a"><div id="link">Voltar ao form</div></a>
+    <div class="layout">
+        <div class="card">
+            <div class="remove">X</div>
+            <div class="color"></div>
+            <div class="retrato"><img src="images/pp.jpg" alt="" class="img"></div>
+            <h1 class="nome">Gabriel Lara</h1>
+            <h2>gabrielbr619@hotmail.com</h2>
+            <p class="sobre">Olá, me chamo Gabriel Lara, tenho 20 anos, gosto muito de aprender coisas novas, principalmente relacionadas ao mundo da tecnologia e da arte.</p>
+
+            <ul><p>Minha comida favorita é
+                <strong><li>Pudim</li></strong>
+            </p>
+            <p>
+                Meus hobbies são
+                <strong>
+                    <li>Programar e desenhar</li>
+                </strong>
+            </p>
+            <p>Meu desenho favorito de infância é 
+            <strong>
+                <strong>
+                    <li>Os Cavaleiros do Zodiáco</li>
+                </strong>
+            </strong>
+        </p></ul>
+    
+    </div>
+    </div>
+</body>
+<script src="js/users.js"></script>
+<script>
+    function randomBgColor() {
+    var x = Math.floor(Math.random() * 256);
+    var y = Math.floor(Math.random() * 256);
+    var z = Math.floor(Math.random() * 256);
+    var bgColor = "rgb(" + x + "," + y + "," + z + ")";  
+    return bgColor
+}
+document.querySelector('.remove').addEventListener('click',(e)=>{
+    console.log('teste')
+    document.querySelector('.card').classList.add('invisible')
+    setTimeout(()=>{
+        document.querySelector('.remove').parentNode.remove()
+    },300)
+})
+
+document.querySelector(".color").style.backgroundColor = randomBgColor()
+</script>
+
+</html>
