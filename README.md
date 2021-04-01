@@ -2,7 +2,7 @@
 
 Foi um projeto iniciado com a intenção de testar minhas capacidades numa aplicação fullstack, com a parte front-end desenvolvida com as tecnológias, HTML, SCSS e JS, o back-end foi desenvolvido com nodejs e alguns outros modulos.
 
-![](header.png)
+![](images/thumb.png)
 
 
 ## Descrição detalhada do projeto
