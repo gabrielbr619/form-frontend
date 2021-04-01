@@ -1,6 +1,6 @@
 # Briefing Pessoal
 
-Foi um projeto iniciado com a intenção de testar minhas capacidades numa aplicação fullstack, com a parte front-end desenvolvida com as tecnológias, HTML, SCSS e JS, o back-end foi desenvolvido com nodejs e alguns outros modulos.
+Foi um projeto iniciado com a intenção de testar minhas capacidades numa aplicação fullstack, tendo a parte front-end desenvolvida com as tecnológias, HTML, SCSS e JS, o back-end foi desenvolvido com nodejs e alguns outros modulos.
 
 ![](images/thumb.png)
 
